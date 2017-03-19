@@ -2,25 +2,25 @@
 <html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-    <style>
-        .head {
-            border-bottom:1px solid #808080;
-            height:56px;
-        }
-        .user-name {
-            font-size:24px;
-        }
-        .user-job {
-            font-size:18px;
-            margin-left:8px;
-        }
-    </style>
+    <title>TangShihui</title>
+    <link href="style/userinfo.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    <script src="scripts/userinfo.js"></script>
 </head>
 <body>
-    <div class="head">
-        <span class="user-name">TangShihui</span>
-        <span class="user-job">.NET</span>
+    <div class="top">
+        <label>Version:</label>
+        <select id="version" onchange="changeLang();">
+            <option value="en">English</option>
+            <option value="cn">Chinese</option>
+        </select>
+    </div>
+    <div class="head-wrap">
+        <div class="head">
+            <span class="user-name">TangShihui</span>
+            <span class="user-job">.NET develop</span>
+        </div>
+        
     </div>
 </body>
 </html>
